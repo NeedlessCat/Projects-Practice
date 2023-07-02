@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Application Form Formate</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="heading">
+			<h1>Job Application <span>(Web)</span></h1>
+		</div>
+		<form action="">
+			<div class="form_filling">
+				<div class="labels">
+					<label for="F_name">First Name</label>
+					<input type="text" name="F_name" placeholder="Enter First Name">
+				</div>
+				<div class="labels">
+					<label for="L_Name">Last Name</label>
+					<input type="text" name="L_Name" placeholder="Enter Last Name">
+				</div>
+				<div class="labels">
+					<label for="email">Email</label>
+					<input type="Email" name="email" placeholder="Your Email_ID">
+				</div>
+				<div class="labels">
+					<label for="Job">Job Role</label>
+					<select name="Job">
+						<option value="">---Select Your Role---</option>
+						<option value="Frontend">Frontend Developer</option>
+						<option value="Backend">Backend Developer</option>
+						<option value="Cloud">Cloud Engineer</option>
+						<option value="Software">Software Developer</option>
+					</select>
+				</div>
+				<div id="textarea" class="labels">
+					<label for="address">Address</label>
+					<textarea name="address" cols="40" rows="3" placeholder="Enter your full Address"></textarea>
+				</div>
+				<div class="labels">
+					<label for="city">City</label>
+					<input type="text" name="city">
+				</div>
+				<div class="labels">
+					<label for="pin">Pincode</label>
+					<input type="number" name="pin">
+				</div>
+				<div class="labels">
+					<label for="date">Date</label>
+					<input type="date" name="date">
+				</div>
+				<div class="labels">
+					<label for="CV">Upload Your CV</label>
+					<input type="file" name="CV">
+				</div>
+			</div>
+			<div class="submit">
+				<button type="submit">Apply Now</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

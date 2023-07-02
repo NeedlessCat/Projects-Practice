@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+:root {
+  --purple500:#281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red600: #dc0000;
+  --body: f9f6ff;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  line-height: 1.4;
+
+/*  new one --- check it out*/
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin: 70px;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: var(--purple600);
+  padding: 15px 0px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0.5 0.5 0.5 rgba(1, 0, 0, 0.9);
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: whitesmoke;
+  align-items: center;
+}
+.logo_part {
+  font-weight: 800;
+  font-size: 30px;
+}
+.container a{
+  text-decoration: none;
+  color: whitesmoke;
+  border-bottom: 2px solid transparent;
+  border-radius: 2px;
+}
+.container a:hover {
+  border-bottom: 2px solid;
+  transition: 0.2s ease-in-out;
+}
+.container ul {
+  display: flex;
+  gap: 20px;
+}
+.top_section {
+  background-image: url(images/hero_image.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  display: grid;
+  color: white;
+  place-items: center;
+  text-align: center;
+}
+.texts {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.top_section h1 {
+  font-weight: 600;
+  font-size: 80px;
+}
+.top_section p {
+  text-align: left;
+}
+.mid_section {
+  background-color: var(--purple500);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+  padding: 40px 0px;
+}
+.texts h1 {
+  font-size: 35px;
+}
+.texts h3 {
+  font-size: 23px;
+}
+.texts h5 {
+  font-size: 15px;
+}
+.button {
+  align-self: center;
+  padding: 8px 15px;
+  font-size: 18px;
+  background-color: darkred;
+  color: whitesmoke;
+}
+.button:hover {
+  transform: scale(1.02);
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+
+.texts p {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 16px;
+
+}
+
+/*New stuff to be learnt... usable stuff*/
+.image {
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+}
+.second_mid {
+display: grid;
+  place-items: center;
+  text-align: center;
+  margin-top: 400px;
+}
+.second_mid .button {
+  background-color: darkslateblue;
+}
+.mac_image {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.video_section {
+  background-image: url();
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.myVideo {
+  min-height: 100%;
+  min-width: 100%;
+  
+}
+.video_section .texts {
+  position: relative;
+  margin-top: -800px;
+  color: white;
+  max-width: 100%;
+  padding-top: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.video_section .texts h3 {
+  font-size: 35px;
+}
+.gift_card {
+  display: flex;
+  padding: 70px 140px;
+  gap: 70px;
+  align-items: center;
+}
+.card_details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card_details form input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  width: 50%; 
+}
+.card_details form input:focus {
+  border-bottom: 1.5px solid darkgray;
+  transition: 0.05s ease-in-out;
+}
+.card_details .button {
+  align-self: flex-start;
+  background-color: darkblue;
+  border-radius: 9px;
+}
+footer {
+  background-color: var(--purple500);
+}
+footer .footer_lower {
+  background-color: var(--purple300);
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+.footer_upper {
+  padding: 20px 0px;
+}
+.footer_links ul{
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 20px;
+}
+.footer_links h4 {
+  font-size: 20px;
+  border-bottom: 1px solid white;
+}

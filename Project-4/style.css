@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.top_section {
+	background-image: url(images/developer.png);
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 60px;
+	padding-left: 330px;
+}
+.top_section h1 {
+	font-size: 80px;
+	color: whitesmoke;
+}
+
+.top_section h1 span {
+	font-size: 45px;
+}
+
+.txt_section {
+	text-align: center;
+	font-size: 60px;
+	background-color: black;
+	color: whitesmoke;
+}
+
+.txt_section div span {
+	font-size: 120px;
+}
+
+.grid_section {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 40px 70px;
+	padding: 200px 200px;
+}
+
+.grid_section img {
+	padding-bottom: 20px;
+}
+.grid_section h3 {
+	padding-bottom: 10px;
+	font-size: 30px;
+	padding-left: 15px;
+}
+
+.Web, .App, .uix {
+	box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+	border-radius: 9px;
+}
+.Web p, .App p, .uix p {
+	padding: 10px 20px;
+	font-size: 15px;
+}
+.Web:hover, .App:hover, .uix:hover{
+	transform: scale(1.04);
+	box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5);
+	border-radius: 15px;
+	transition: 0.2s ease-in-out;
+} 
+
+.bottom_section {
+	display: flex;
+}
+.contact {
+	color: lightgray;
+	background-color: darkred;
+}
+.About {
+	color: lightgray;
+	background-color: darkgreen;
+}
+
+.contact, .About {
+	padding: 50px 70px;
+	font-size: 18px;
+
+}
+
+.contact h3, .About h3 {
+	padding: 15px 0px;
+	font-size: 50px;
+	color: whitesmoke;
+}
+footer {
+	text-align: center;
+	color: lightgray;
+	background-color: black;
+	font-size: 40px;
+	padding: 20px 0px;
+}
