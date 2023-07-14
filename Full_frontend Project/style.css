@@ -7,7 +7,6 @@ body,html {
 	line-height: 1.4;
 	font-size: 15px;
 	font-weight: 400;
-<<<<<<< Updated upstream
 	background-image: url(images/a1.jpg);
 	background-attachment: fixed;
 	scroll-behavior: smooth;
@@ -16,25 +15,8 @@ body,html {
 a {
 	text-decoration: none;
 	color: black;
-=======
-	scroll-behavior: smooth;
-	scroll-padding-top: 13rem;
-	background-image: url(images/a2.jpg);
-	background-attachment: fixed;
 }
-a{
-	text-decoration: none;
-}
-a:hover {
-	opacity: 0.8;
-}
-.Home:hover {
-	transform: scale(1.04);
-	border: 1px solid black;
-	padding: 9px;
-	border-radius: 5px;
->>>>>>> Stashed changes
-}
+
 /*---------LOGO-SECTION-----------*/
 .Logo_part {
 	background-image: url(images/top1.jpg);
@@ -48,15 +30,11 @@ a:hover {
 	margin: 0 auto;
 }
 .container2 {
-<<<<<<< Updated upstream
 	max-width: 900px;
 	margin: 0 auto;
 }
 .container3 {
 	max-width: 1200px;
-=======
-	max-width: 1000px;
->>>>>>> Stashed changes
 	margin: 0 auto;
 }
 nav {
@@ -97,17 +75,12 @@ nav .tag_line {
 .buttons {
 	display: flex;
 	flex-direction: row;
-<<<<<<< Updated upstream
 	padding: 0px 10px;
-=======
-	gap: 1px;
->>>>>>> Stashed changes
 }
 .Home {
 	font-size: 20px;
 	color: black;
 	font-weight: bold;
-<<<<<<< Updated upstream
 	padding: 7px 12px;
 	border-right: 2px solid transparent;
 	border-left: 2px solid transparent;
@@ -123,44 +96,14 @@ nav .tag_line {
 .active {
 	border-right: 2px solid black;
 	border-left:	2px solid black;
-=======
-	padding: 10px;
-}
-.page {
-	border-left: 3px solid black;
-	border-right: 3px solid black;
-	/*border-top: 1px solid black;
-	border-bottom: 1px solid black*/;
-	font-size: 21px;
-	border-radius: 5px;
-}
-.page:hover {
-	transform: scale(1.0);
-	border-left: 3px solid black;
-	border-right: 3px solid black;
-	border-top: 0px solid black;
-	border-bottom: 0px solid black;
-	font-size: 21px;
-	padding: 10px;
-	border-radius: 5px;
-}
-.Home a {
-	color: black;
->>>>>>> Stashed changes
 }
 /*-----------MAIN-SECTION---------*/
 .top_section {
 	background-image: url(images/Untitled.jpeg);
 	background-repeat: no-repeat;
-<<<<<<< Updated upstream
   background-size: cover;
  	height: 80%;
  	box-shadow: 0px 0px 200px black;
-=======
-  	background-size: cover;
-  	height: 100%;
-  	box-shadow: 0px 0px 200px #000000;
->>>>>>> Stashed changes
 }
 .hero_content {
 	padding: 120px 80px;
@@ -192,12 +135,8 @@ nav .tag_line {
 
 	padding: 30px;
 	display: grid;
-	gap: 50px;
+	gap: 90px;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
-.grid1:hover {
-	transform: scale(1.04);
-	transition: 0.5s ease-in-out;
 }
 .grid1 {
 	background-color: floralwhite;
@@ -205,117 +144,18 @@ nav .tag_line {
 	display: flex;
 	align-items: center;
 	border-radius: 20px;
-	position: relative;
-	top: 6.5rem;
-	transition: 0.5s ease-in-out;
 }
 .grid1 .icon {
 	padding: 10px;
 	font-size: 70px;
 }
-.grid1 .text {
-	font-size: 110%;
-}
-
-/*----------------------------------------------*/
-
-.team {
-	padding: 5rem 0;
-/*	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;*/
-}
-.line1 {
-	position: relative;
-	top: 18.5rem;
-	width: 31.2%;
-}
-.line2 {
-	position: relative;
-	top: 18.5rem;
-	left: 64.2rem;
-	width: 31.2%;
-}
-.team h1 {
-	padding: 5px 15px;
-	max-width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 15rem;
-	text-align: center;
-	font-size: 60px;
-	border-radius: 100px;
-	border: 5px solid darkkhaki;
-	background-color: rgba(222,184,135,0.6);
-	box-shadow: 0px 0px 20px #000000;
-
-}
-.team .tag_line {
-	font-size: 15px;
-	text-align: center;
-	max-width: fit-content;
-	margin: 4px auto;
-	border-bottom: 2px solid #000000;
-	font-weight: bold;
-	color: darkred;
-	opacity: 0.6;
-}
-.team .tag_line span {
-	font-size: 20px;
-}
-.person {
-	text-align: center;
-}
-.details {
-	padding: 50px;
-}
-.person img {
-
-	width: 15%;
-	border-radius: 50%;
-	box-shadow: 0px 0px 90px #888888;
-	border: 5px solid grey;
-	transition: 0.2s ease-in-out;
-}
-.person img:hover {
-	opacity: 0.9;
-	transform: scale(1.01);
-	transition: 0.2s ease-in-out;
-}
-.person .name {
-	font-size: 30px;
-	line-height: 0.9;
-	font-weight: bold;
-}
-.person .post {
-	font-size: 18px;
-	border-bottom: 3px solid darkkhaki;
-	padding-bottom: 5px;
-}
-.support {
-	display: grid;
-	grid-template-columns: 30% 30% 30%;
-	gap: 70px;
-	padding-top: 40px;
-}
-.support img {
-	width: 45%;
-}
-
-/*----------------------------------------------*/
-
 .comments {
-<<<<<<< Updated upstream
 	margin-top: 200px;
 	background-image: url(images/brown2.jpg);
-=======
-	
-	background-image: url(images/cmnt_bg.png);
->>>>>>> Stashed changes
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	box-shadow: 0px 0px 90px #000000;
+	box-shadow: 0px 0px 90px #888888;
 	padding: 40px;
 }
 .heading {
@@ -330,7 +170,6 @@ nav .tag_line {
 	border-bottom: 1px solid black;
 	border-radius: 20px;
 }
-
 .heading h1 {
 	font-size: 50px;
 }
@@ -341,7 +180,6 @@ nav .tag_line {
 }
 .comments .grid_box .grid1 {
 	box-shadow: 0px 0px 40px #888888;
-<<<<<<< Updated upstream
 	background-color: rgba(1, 1, 1, 0.7);
 }
 .text h3 {
@@ -523,101 +361,7 @@ nav .tag_line {
   z-index: 100;
   font-weight: 700;
   font-size: 2em;
-=======
-	background-color: rgba(1, 1, 1, 0.15);
-	top: 0px;
->>>>>>> Stashed changes
 }
-
-/*--------Promise-section with %-CIRCLES------*/
-.promise {
-	display: flex;
-	justify-content: space-between;
-	gap: 10rem;
-	padding: 100px;
-}
-.left_side .ques {
-	font-size: 20px;
-	font-weight: bold;
-	color: brown;
-	padding-left: 5px;
-	opacity: 0.6;
-	border-bottom: 2px solid brown;
-	border-radius: 5px;
-}
-.left_side .tests h1{
-	font-size: 350%;
-	line-height: 1.25;
-}
-.left_side .tests p {
-	padding:30px 0px;
-	font-size: 18px;
-}
-
-.right_side {
-	display: grid;
-	grid-template-columns: auto auto;
-	gap: 5rem;
-	align-items: center;
-	align-self: center;
-	text-align: center;
-}
-.percent .text{
-	padding-top: 10px;
-	font-size: 17px;
-
-}
-.circle-wrap {
-/*  margin: 0px auto;*/
-  width: 150px;
-  height: 150px;
-  background: #e6e2e7;
-  border-radius: 50%;
-}
-.circle-wrap .circle .mask,
-.circle-wrap .circle .fill {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  border-radius: 50%;
-}
-.circle-wrap .circle .mask {
-  clip: rect(0px, 150px, 150px, 75px);
-}
-.circle-wrap .circle .mask .fill {
-  clip: rect(0px, 75px, 150px, 0px);
-  background-color: #9e00b1;
-}
-.circle-wrap .circle .mask.full,
-.circle-wrap .circle .fill {
-  animation: fill ease-in-out 3s;
-  transform: rotate(126deg);
-}
- 
-@keyframes fill {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(126deg);
-  }
-}
-.circle-wrap .inside-circle {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  background: #fff;
-  line-height: 130px;
-  text-align: center;
-  margin-top: 10px;
-  margin-left: 10px;
-  position: absolute;
-  z-index: 10;
-  font-weight: 700;
-  font-size: 2em;
-}
-
-
 
 /*---------FOOTER-SECTION----------*/
 footer {
@@ -678,7 +422,6 @@ footer {
 	background: rgba(0, 0, 0, 0.2);
 }
 
-<<<<<<< Updated upstream
 /*---------ABOUT SECTION/WEBPAGE---------------*/
 .team_about {
 	background-image: url(images/Untitled.jpeg);
@@ -836,233 +579,4 @@ footer {
 	grid-template-columns: auto auto auto auto;
 	padding: 10px 50px;
 	border-top: 1px solid black;
-=======
-
-
-
-
-
-/*---------------Improved & Added section for ABOUT US page -------------------*/
-.team_about {
-	padding: 5rem 0;
-	background-image: url(images/Untitled.jpeg);
-	box-shadow: 0px 0px 90px grey;
-}
-.team h2 {
-	padding: 5px 30px;
-	max-width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	font-size: 60px;
-	border-radius: 100px;
-	border: 5px solid darkkhaki;
-	background-color: rgba(222,184,135,0.6);
-	box-shadow: 0px 0px 20px #000000;
-}
-.line1_about {
-	position: relative;
-	top: 3.5rem;
-	width: 38.8%;
-}
-.line2_about {
-	position: relative;
-	top: 3.5rem;
-	left: 57.1rem;
-	width: 38.8%;
-}
-
-.sub_nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding-top: 20px;
-
-	margin-bottom: 30px;
-	position: sticky;
-	background-color:cornsilk;
-	top: 49px;
-	z-index: 1;
-	
-	box-shadow: 0px 0px 50px grey;
-	border: 3px solid burlywood;
-}
-.section {
-	font-size: 21px;
-	color: black;
-	font-weight: bold;
-	padding: 0px 13.5%;
-	align-items: center;
-	border-bottom: 3px solid cornsilk;
-}
-.section:hover {
-	opacity: 0.8;
-	transform: scale(1.01);
-	border-bottom: 3px solid firebrick;
-}
-.section:target {
-	transform: scale(1.01);
-	border-bottom: 3px solid firebrick;
-	font-weight: bold;	
-}
-.section a {
-	color: black;
-}
-.heading_company {
-	background-image: url(images/head1.avif);
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 250px;
-	border-radius: 50px;
-}
-.heading_company h1 {
-	font-size: 70px;
-	color: floralwhite;
-} 
-.About_Company_section {
-	padding: 30px;
-}
-.About_Company_section img {
-	position: relative;
-	top: -200px;
-	left: 25px;
-	margin-bottom: -200px;
-	width: 95%;
-	border-radius: 20px;
-	box-shadow: 0px 0px 90px #888888;
-	border: 1px solid grey;
-	z-index: 0;
-}
-.first_letter {
-	font-size: 80px;
-	line-height: 1;
-}
-.first_word {
-	font-size: 30px;
-}
-.About_Company_section p {
-	font-size: 18px;
-	padding: 5px 40px;
-}
-
-.Faq_section {
-	margin-top: 10rem;
-	margin-bottom: 10rem;
-}
-.Faq_section .heading_company {
-	padding-bottom: 15%;
-}
-.Faq_section img {
-	position: relative;
-	width: 50%;
-	top: -19rem;
-	left: 40rem;
-	margin-bottom: -19rem;
-}
-.img2 img {
-	width: 40%;
-	top: -60rem;
-	left: -7rem;
-	margin-bottom: -50rem;
-}
-.grid_section {
-	display: grid;
-	gap: 9px;
-	grid-template-columns: 80%;
-	padding-left: 10%;
-}
-.grid .ques a{
-	color: black;
-}
-.grid {
-	border-radius: 10px;
-	border: 1px solid black;
-	font-size: 20px;
-	padding: 5px 15px ;
-	align-items: center;
-	align-self: center;
-	background-color: rgba(0, 0, 0, 0.08);
-	box-shadow: 0px 0px 10px grey;
-}
-.grid .hidden p{
-	display: none;
-	padding-left: 24px;
-	padding-bottom: 10px;
-}
-.grid .hidden p:target {
-	display: block;
-}
-.grid .ques {
-	display: flex;
-	gap: 9px;
-}
-.grid p span {
-	font-size: 25px;
-	font-weight: bolder;
-
-}
-.Team_section {
-	padding: 30px;
-}
-.Team_section .design {
-	position: relative;
-	top: -240px;
-	left: 150px;
-	margin-bottom: -200px;
-	width: 70%;
-	z-index: 0;
-}
-.grid_comment {
-	display: grid;
-	grid-template-columns: 23% 23% 23% 23%;
-	padding: 0 6%;
-	gap: 20px;
-	text-align: center;
-}
-.Team_section .profile img {
-	width: 80%;
-	position: relative;
-	top: 7.05rem;
-	margin-top: -9rem;
-}
-.profile .bg {
-	background-color: grey;
-	padding: 50px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	border-bottom: 4px solid black;
-}
-.grid_comment .grid_item {
-	border: 1px solid black;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 40px;
-	border-radius: 15%;
-	background-color: lightgray;
-}
-.grid_item h3 {
-	padding: 15px;
-	font-size: 20px;
-}
-.grid_item {
-	transition: 0.2s ease-in-out;
-}
-.grid_item:hover {
-	opacity: 0.8;
-	transform: scale(1.04);
-	transition: 0.2s ease-in-out;
-}
-.grid_comment .grid_item h5 {
-	padding: 10px 0px;
-	font-size: 14px;
-}
-.grid_item .grid_footer {
-	border-top: 2px solid darkgray;
-	display: flex;
-	justify-content: center;
-	gap: 10px;
-	padding: 10px;
->>>>>>> Stashed changes
 }
