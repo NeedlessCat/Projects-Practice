@@ -172,6 +172,7 @@ nav .tag_line {
 }
 .heading h1 {
 	font-size: 50px;
+	text-align: center;
 }
 .comments .grid_box {
 	grid-template-columns:auto auto;
@@ -465,7 +466,7 @@ footer {
 	margin-top: 10%;
 }
 .content .heading {
-	background-image: url(images/about/bg.avif);
+	background-image: url(images/about/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: papayawhip;
@@ -498,7 +499,7 @@ footer {
 .img_faq2 {
 	position: relative;
 	top: -600px;
-	margin-bottom: -500px;
+	margin-bottom: -550px;
 	left: -12%;
 }
 .grid_items {
@@ -579,4 +580,199 @@ footer {
 	grid-template-columns: auto auto auto auto;
 	padding: 10px 50px;
 	border-top: 1px solid black;
+}
+
+
+/*---------SERVICES PAGE---------*/
+.service {
+	margin: 10% auto;
+}
+.top {
+	text-align: center;
+}
+.top h3 {
+	color: brown;
+	font-size: 25px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-radius: 20px;
+	max-width: 20%;
+	margin: auto;
+}
+.top h1 {
+	font-size: 60px;
+}
+.top p{
+	margin: 0 20%;
+}
+.grid_rect {
+	display: grid;
+	grid-template-columns: 30% 30% 30% ;
+	gap: 5%;
+	padding-top: 40px;
+}
+.grid_rect .grid {
+	border: 2px solid black;
+	transition: 0.2s ease-in-out;
+}
+.grid_rect .grid:hover {
+	transform: scale(1.02);
+	transition: 0.2s ease-in-out;
+}
+.grid_rect img {
+	width: 7vh;
+}
+.grid_rect .grid {
+	padding: 20px 40px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 30px black;
+	background-color: whitesmoke;
+}
+.grid_rect .grid h2 {
+	font-size: 35px;
+	padding-top: 3px;
+	border-bottom: 1px solid black;
+}
+.grid_rect .grid p {
+	font-size: 17px;
+	padding-top: 8px;
+}
+
+/*---------CONTACT Pages---------*/
+
+.contact{
+	position: relative;
+	top: 11rem;
+	left: 11rem;
+	margin-bottom: -25rem;
+	max-width: 450px;
+	background-color: floralwhite;
+	padding: 30px;
+	border-radius: 40px;
+	box-shadow: 0px 0px 60px black;
+}
+.headin {
+	font-size: 22px;
+	border-bottom: 2px solid black;
+}
+.content-form {
+	padding-bottom: 20%;
+}
+.content-form section {
+	margin: 2vh;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+section i{
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    text-align:center;
+    padding: 5px;
+}
+.contact .media {
+	display: flex;
+	gap: 2rem;
+	place-items: center;
+	padding-left: 22%;
+	padding-right: 22%;
+	padding-top: 5%;
+	border-top: 2px solid black;
+}
+.form_contact{
+    display: flex;
+    background-color: rgba(196, 164, 132, 0.5);
+    max-width: 1000px;
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    padding: 5% 0%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 60px black;
+}
+.form_contact .right_contact {
+	margin-left: 30%;
+	width: 45rem;
+}
+.form_contact .right_contact .sub_title{
+	padding-top: 0.5rem;
+	padding-bottom: 2rem;
+}
+.contact-form {
+	padding: 4px 1px;
+}
+.form_contact .contact-form input{
+    width: 30rem;
+    background-color: transparent;
+    border: 0px;
+    border: transparent;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+}
+.form_contact .contact-form input ~ span{
+    position: relative;
+    right: 31.5rem;
+    top: 8px;
+    opacity: 0;
+    font-size: 2px;
+    transition: 0.4s ease-in-out;
+}
+.form_contact .contact-form input:focus ~span{
+    top:-30px;
+    font-size: 20px;
+    opacity: 1;
+}
+textarea:focus::placeholder, input:focus::placeholder {
+	color: transparent;
+	transition: 0.4s ease-in-out;
+}
+.form_contact .contact-form textarea{
+    width: 30rem;
+    border: 0px;
+    background-color: transparent;
+    margin: 20px;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+}
+.form_contact .contact-form textarea ~ span
+{
+    position: relative;
+    right: 31.5rem;
+    top: -30px;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    font-size: 2px;
+}
+.form_contact .contact-form textarea:focus ~span{
+    top:-70px;
+    font-size: 20px;
+    opacity: 1;
+}
+.form_contact .contact-form input[type=submit]{
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    font-size: 20px;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+.form_contact .contact-form input[type=submit]:hover{
+    opacity: 0.8;
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;
+}
+.map {
+	max-width: 1050px;
+	height: 500px;
+	margin: 50px auto;
+	border-radius: 40px;
+	border: 1px solid black;
+	overflow: hidden;
+	box-shadow: 0px 0px 30px black;
 }
