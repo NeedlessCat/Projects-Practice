@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Color Palette Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="./index.js" defer></script>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<section class="upper">
+				<h1>QR Code Generator</h1>
+				<p>Paste text to create QR Code</p>
+			</section>
+			<form id="qrForm">
+				<input id="qrInput" type="text" name="qrtext" placeholder="Enter the text">
+				<button id="generateBtn" type="submit">Generate QR Code</button>
+			</form>
+			<section id="qrContainer" class="qr_container">
+				<img id="qrImage" src="images/qr.png"
+				alt="QR Code">
+			</section>
+			
+		</div>
+	</div>
+</body>
+</html>

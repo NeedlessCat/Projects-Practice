@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Percentage Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="background">
+		<div class="container">
+			<div class="box">
+				<form onsubmit="calculateMarks(event)" class="calculate-form" id="calculateForm">
+					<input type="number" name="maths" placeholder="Maths" min="0" max="100" required>
+					<input type="number" name="english" placeholder="English" min="0" max="100" required>
+					<input type="number" name="hindi" placeholder="Hindi" min="0" max="100" required>
+					<input type="number" name="science" placeholder="Science" min="0" max="100" required>
+					<button type="submit" class="primary-btn">Calculate</button>
+				</form>
+				<p class="result" id="result"></p>
+			</div>
+			<div class=content>
+				<h2>Calculate Your</h2>
+				<h1>Percentage</h1>
+			</div>
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

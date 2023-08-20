@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body {
+	font-size: 100%;
+	font-weight: 400;
+	line-height: 1.4;
+	scroll-behavior: smooth;
+}
+ul{
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+header{
+	background-color: skyblue;
+}
+.container {
+	max-width: 80rem;
+	margin: 0 auto;
+	align-items: center;
+	padding: 0rem 2rem;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+.container .logo {
+	font-size: 3rem;
+	color: white;
+	font-weight: 1000;
+}
+.options ul {
+	display: flex;
+	gap: 1.5rem;
+}
+.options a {
+	font-size: 1.3rem;
+}
+.options a:hover {
+	border-bottom: 3px solid whitesmoke;
+	border-radius: 3px;
+
+}
+.top_section {
+	background-color: #00006D;
+	border-bottom: 5px solid skyblue;
+}
+.top_section .image img{
+	width: 100%;
+	border-radius: 40%;
+	border: 2px groove black;
+	box-shadow: 0px 0px 20px #888888;
+}
+.top_section .container {
+	display: grid;
+	grid-template-columns: 30% 60%;
+	gap: 80px;
+	padding: 3rem;
+}
+.container .texts {
+	display: grid;
+	place-items: center;
+	align-self: center;
+	line-height: 1;
+}
+.container .texts h1 {
+	font-size: 3rem;
+	color: white;
+}
+.container .texts h1 .hi{
+	font-size: 4rem;
+	color: yellow;
+}
+.container .texts h1 .name{
+	font-size: 3.8rem;
+}
+.texts .typing {
+  color: #fff;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15rem solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 60% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+.project_section {
+	background-color: royalblue;
+}
+.project_section .heading {
+	text-align: center;
+	padding: 3.5rem;
+	font-size: 2.5rem;
+}
+.project_section .heading h1 {
+	border-bottom: 4px solid bisque;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px burlywood;
+}
+.image_list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 0.5rem;
+	place-items: center;
+}
+.image_list .img1 {
+/*	border-radius: 1.2rem;*/
+	overflow: hidden;
+}
+.image_list .img2 img{
+	width: 20rem;
+	height: 22rem;
+}
+.image_list .img1 img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 1.2rem;	
+}
+.image_list .img1 .about {
+	font-size: 1.2rem;
+	text-align: center;
+	position: relative;
+	top: -5.5rem;
+	margin-bottom: -4.5rem;
+	border-radius: 1rem;
+	/*border-top-left-radius: 20px;
+	border-top-right-radius: 20px;*/
+	padding: 2rem;
+	transform: translateY(100px);
+	color: black;
+}
+.img1:hover {
+	transform: scale(1.04);
+	transition: 0.5s ease-in-out;
+}
+.img1:hover img {
+	transform: scale(1.04);
+	transition: 0.3s ease-in-out;
+	opacity: 0.8;
+}
+.img1:hover .about {
+	background: darkgray;
+	transition: 0.5s ease-in-out;
+	transform: translateY(0px);
+}
+
+@media (max-width: 786px) {
+	html,body {
+		font-size: 50%;
+	}
+	img {
+		width: 80%;
+	}
+	.about {
+		width: 81.5%
+	}
+
+}
+@media (max-width: 425px) {
+	.top_section .container {
+		display: flex;
+		flex-direction: column;
+	}
+	.container .texts h1 {
+		font-size: 3rem;
+	}
+}
